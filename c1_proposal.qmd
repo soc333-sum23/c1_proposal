@@ -1,0 +1,55 @@
+---
+title: "Project component 1: Research question proposal"
+author: "Aidan Combs"
+editor: visual
+---
+
+# Project proposal {#proposal}
+
+Please [see this page for instructions](https://soc333-sum23.github.io/project-proposal.html) on how to write your project proposal. Put your work in this document. Render the document and commit your changes regularly ([see instructions here](https://soc333-sum23.github.io/computing-clonerepo.html#how-to-commit-and-push-changes)). When you are done, push your changes to GitHub.
+
+Please write both research questions and their accompanying supporting information and push your work to GitHub before class on Thursday, May 25.
+
+Then, by Tuesday, May 30th, incorporate your peers' feedback into your initial work and add your thoughts on which question you will move forward with (details on the version to submit for grading [can be found here](https://soc333-sum23.github.io/project-proposal.html#version-to-submit-for-grading-tuesday-may-30-1159pm)).
+
+## Setup
+
+In the YAML at the top of the page, replace my name under `author` with yours.
+
+Install the `tidyverse` and `openintro` packages by running the code chunk below (click the green play button). This only needs to be done once.
+
+```{r, eval = FALSE}
+install.packages("tidyverse")
+install.packages("openintro")
+```
+
+Then load them with the `library` function by running the code chunk below. This needs to be done once per session (ie, once each time you open this document).
+
+```{r}
+library(tidyverse)
+library(openintro)
+```
+
+## Research question 1
+
+Write your first research question and provide the requested supporting information here (delete this line).
+
+Use the code block below to generate a `glimpse` of the data you would use to answer this question (replace `lizard_run` with the name of your dataset, then run the chunk).
+
+```{r}
+glimpse(lizard_run)
+```
+
+## Research question 2
+
+Write your second research question and provide the requested supporting information here (delete this line).
+
+Use the code block below to generate a `glimpse` of the data you would use to answer this question (replace `lizard_run` with the name of your dataset).
+
+```{r}
+glimpse(lizard_run)
+```
+
+## Post-peer review reflections
+
+After class on 5-30, add [your concluding thoughts](https://soc333-sum23.github.io/project-proposal.html#version-to-submit-for-grading-tuesday-may-30-1159pm) about your research questions here (delete this line).
