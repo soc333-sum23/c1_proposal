@@ -34,7 +34,7 @@ library(openintro)
 
 Write your first research question and provide the requested supporting information here (delete this line).
 
-Use the code block below to generate a `glimpse` of the data you would use to answer this question (replace `lizard_run` with the name of your dataset, then run the chunk).
+Use the code block below to generate a `glimpse` of the data you would use to answer this research question (replace `lizard_run` with the name of your dataset, then run the chunk).
 
 ```{r}
 glimpse(lizard_run)
@@ -44,7 +44,7 @@ glimpse(lizard_run)
 
 Write your second research question and provide the requested supporting information here (delete this line).
 
-Use the code block below to generate a `glimpse` of the data you would use to answer this question (replace `lizard_run` with the name of your dataset).
+Use the code block below to generate a `glimpse` of the data you would use to answer this research question (replace `lizard_run` with the name of your dataset).
 
 ```{r}
 glimpse(lizard_run)
